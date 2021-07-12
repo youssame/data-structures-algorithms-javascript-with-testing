@@ -1,0 +1,22 @@
+{
+  "name": "data-structures-algorithms-javascript-with-testing",
+  "version": "1.0.0",
+  "description": "Data Structures and Algorithms in JavaScript with testing",
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.0.6"
+  },
+  "scripts": {
+    "test": "jest --verbose ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youssame/data-structures-algorithms-javascript-with-testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youssame/data-structures-algorithms-javascript-with-testing/issues"
+  },
+  "homepage": "https://github.com/youssame/data-structures-algorithms-javascript-with-testing#readme"
+}
