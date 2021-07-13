@@ -1,3 +1,4 @@
+//last-in-first-out 
 class Stack {
     constructor() {
         this.data = []
