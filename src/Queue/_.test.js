@@ -1,16 +1,16 @@
 const Queue = require('./index');
 
-test('check if count is 0', () => {
+test('check if the queue is created', () => {
   const queue = new Queue()
   expect(queue.size()).toEqual(0)
 });
 
-test('check if data is empty', () => {
+test('check if queue data is empty', () => {
   const queue = new Queue()
   expect(queue.data).toEqual([])
 });
 
-test('test the push', () => {
+test('test the push function', () => {
   const queue = new Queue()
   queue.enqueue(20)
   queue.enqueue(30)
@@ -19,7 +19,7 @@ test('test the push', () => {
   expect(queue.data[2]).toEqual(50);
 });
 
-test('test the pop 1/2', () => {
+test('test the pop function 1/2', () => {
   const queue = new Queue()
   queue.enqueue(20)
   queue.enqueue(30)
@@ -29,7 +29,7 @@ test('test the pop 1/2', () => {
   expect(queue.size()).toEqual(3)
 });
 
-test('test the pop 2/2', () => {
+test('test the pop function 2/2', () => {
     const queue = new Queue()
     queue.enqueue(20)
     queue.enqueue(30)
@@ -39,7 +39,7 @@ test('test the pop 2/2', () => {
     expect(element).toEqual(20)
 });
 
-test('test the front', () => {
+test('test the front function', () => {
   const queue = new Queue()
   queue.enqueue(20)
   queue.enqueue(30)
